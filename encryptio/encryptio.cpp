@@ -3,6 +3,9 @@
 #include <windows.h>
 
 int main() {
+    
+    
+    //deklarace cest k souborum
     const char* sourcePath = "c:\\Temp\\test.txt";
     const char* destinationPath = "c:\\Temp\\test01.txt";
 
@@ -19,6 +22,6 @@ int main() {
     
     
 
-    std::cout << "Encryption complete." << std::endl;
+    printf("Encryption Complete!");
     return 0;
 }
